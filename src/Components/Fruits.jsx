@@ -10,7 +10,7 @@ import StraberryImg from '../Components/img/fruits/straberry.jpg';
 import GuavaImg from '../Components/img/fruits/guava.jpg';
 import WatermelonImg from '../Components/img/fruits/watermelon.jpg';
 import MangoImg from '../Components/img/fruits/mango.jpg';
-import Fruitsicon from '../components/img/fruitsicon.png';
+import FruitsiconImg from '../components/img/fruitsicon.png';
 
 const Fruits = () => {
   const { addItem } = useCart();  
@@ -108,7 +108,7 @@ const Fruits = () => {
   return (
     <div>
       <div className='flex justify-start md:justify-center gap-3 p-2 m-2'>
-        <img src={Fruitsicon} alt="fruit icon" width="100px" height="100px" />
+        <img src={FruitsiconImg} alt="fruit icon" width="100px" height="100px" />
         <h1 className='text-center font-bold flex justify-center items-center text-3xl'>Fruits</h1>
       </div>
 
