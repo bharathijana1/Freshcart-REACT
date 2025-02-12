@@ -97,7 +97,7 @@ const NavBar = () => {
     <Link to="/carts">
     <h2 className='hover:underline hover:transition-all duration-500 ease-in-out p-1 text-xl cursor-pointer' onClick={closeMenu}>
             <div className='flex flex-row '>
-            <img src="../src/Components/img/basket.png" alt="basket" width="30px" height="30px" />
+            <img src={CartlogoImg} alt="basket" width="30px" height="30px" />
             <div className='flex justify-center items-center '>
             <span className='absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left'></span>
             <span className='text-pink-900 px-2 mx-2 bg-white rounded-full text-xl'>{totalItems}</span>
