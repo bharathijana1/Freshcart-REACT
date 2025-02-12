@@ -1,17 +1,16 @@
 import React from 'react';
 import { useCart } from 'react-use-cart';
 import { useNavigate } from 'react-router-dom';  
-import AppleImg from '../src/Components/img/fruits/apple.jpg';
-import BananaImg from '../src/Components/img/fruits/banana.jpg';
-import GrapesImg from '../src/Components/img/fruits/grapes.jpg';
-import KiwiImg from '../src/Components/img/fruits/kivi.jpg';
-import OrangeImg from '../src/Components/img/fruits/orange.jpg';
-import from '';
-import from '';
-import from '';
-import from '';
-import from '';
-import from '';
+import AppleImg from '../Components/img/fruits/apple.jpg';
+import BananaImg from '../Components/img/fruits/banana.jpg';
+import GrapesImg from '../Components/img/fruits/grapes.jpg';
+import KiwiImg from '../Components/img/fruits/kivi.jpg';
+import OrangeImg from '../Components/img/fruits/orange.jpg';
+import StraberryImg from '../Components/img/fruits/straberry.jpg';
+import GuavaImg from '../Components/img/fruits/guava.jpg';
+import WatermelonImg from '../Components/img/fruits/watermelon.jpg';
+import MangoImg from '../Components/img/fruits/mango.jpg';
+import Fruitsicon from '../components/img/fruitsicon.png';
 
 const Fruits = () => {
   const { addItem } = useCart();  
@@ -65,7 +64,7 @@ const Fruits = () => {
     },
     {
       id: 6,
-      productimg: "../src/Components/img/fruits/straberry.jpg",
+      productimg: StraberryImg,
       productalt: "Strawberry img",
       productname: "Strawberry",
       price: 50, 
@@ -74,7 +73,7 @@ const Fruits = () => {
     },
     {
       id: 7,
-      productimg: "../src/Components/img/fruits/guava.jpg",
+      productimg: GuavaImg,
       productalt: "Guava img",
       productname: "Guava",
       price: 50, 
@@ -83,7 +82,7 @@ const Fruits = () => {
     },
     {
       id: 8,
-      productimg: "../src/Components/img/fruits/watermelon.jpg",
+      productimg: WatermelonImg,
       productalt: "watermelon img",
       productname: "Watermelon",
       price: 50, 
@@ -92,7 +91,7 @@ const Fruits = () => {
     },
     {
       id: 9,
-      productimg: "../src/Components/img/fruits/mango.jpg",
+      productimg: MangoImg,
       productalt: "mango img",
       productname: "Mango",
       price: 50, 
@@ -109,7 +108,7 @@ const Fruits = () => {
   return (
     <div>
       <div className='flex justify-start md:justify-center gap-3 p-2 m-2'>
-        <img src="../src/components/img/fruitsicon.png" alt="fruit icon" width="100px" height="100px" />
+        <img src={Fruitsicon} alt="fruit icon" width="100px" height="100px" />
         <h1 className='text-center font-bold flex justify-center items-center text-3xl'>Fruits</h1>
       </div>
 
