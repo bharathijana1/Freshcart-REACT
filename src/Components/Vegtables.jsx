@@ -16,7 +16,7 @@ import CaliflowerImg from '../Components/img/vegetables/califlower.jpg';
 import ChilliImg from '../Components/img/vegetables/chilli.jpg';
 import MintImg from '../Components/img/vegetables/mint.jpg';
 import BeansImg from '../Components/img/vegetables/beans.jpg';
-import VegIcon from '../img/vegetablesicon.png';
+import VegIcon from './img/vegetablesicon.png';
 
 
 const Vegtables = () => {
