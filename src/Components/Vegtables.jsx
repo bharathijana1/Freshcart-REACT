@@ -16,7 +16,6 @@ import CaliflowerImg from '../Components/img/vegetables/califlower.jpg';
 import ChilliImg from '../Components/img/vegetables/chilli.jpg';
 import MintImg from '../Components/img/vegetables/mint.jpg';
 import BeansImg from '../Components/img/vegetables/beans.jpg';
-import VegetableIconImg from '../components/img/vegetablesicon.png';
 
 
 const Vegtables = () => {
@@ -81,7 +80,7 @@ const Vegtables = () => {
   return (
     <div>
       <div className='flex justify-start md:justify-center gap-3 p-2 m-2'>
-        <img src={VegetableIconImg} alt="vegicon" width="100px" height="100px" />
+        <img src="../src/components/img/vegetablesicon.png" alt="vegicon" width="100px" height="100px" />
         <h1 className='text-center font-bold flex justify-center items-center text-3xl'>Vegetables</h1>
       </div>
       <div className='grid grid-cols-2 gap-4 md:flex md:justify-center md:items-center md:flex-wrap mx-auto w-full mt-5 md:mt-10 p-1 md:pb-10 '>
