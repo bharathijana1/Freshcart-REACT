@@ -10,7 +10,7 @@ import StraberryImg from '../Components/img/fruits/straberry.jpg';
 import GuavaImg from '../Components/img/fruits/guava.jpg';
 import WatermelonImg from '../Components/img/fruits/watermelon.jpg';
 import MangoImg from '../Components/img/fruits/mango.jpg';
-import FruitsiconImg from './components/img/fruitsicon.png';
+import FruitsiconImg from '/components/img/fruitsicon.png';
 
 const Fruits = () => {
   const { addItem } = useCart();  
