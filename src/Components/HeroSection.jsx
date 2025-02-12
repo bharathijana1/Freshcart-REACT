@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import HeroImg from '../Components/img/fruitsandveg.jpg';
 
 export default function HeroSection() {
   return (
@@ -14,7 +15,7 @@ export default function HeroSection() {
 
             </div>
             <div className=" p-3 px-6 md:p-2">
-                <img className='rounded-3xl' src="../src/Components/img/fruitsandveg.jpg" alt="carpartnership-img" />
+                <img className='rounded-3xl' src={HeroImg} alt="carpartnership-img" />
 
             </div>
         </div>
