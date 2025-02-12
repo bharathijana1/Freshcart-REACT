@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { useCart } from "react-use-cart";
+import GooglepayImg from '../Components/img/google-pay.png';
+import PhonepayImg from '../Components/img/phone-payy.png';
+import PaytimImg from '../Components/img/paytm.png';
 
 const PaymentPage = ({ formtitle }) => {
   const [paymentMethod, setPaymentMethod] = useState(""); 
@@ -72,7 +75,7 @@ const paidsuccessfully = () => {
             Google Pay
             
           </label>
-          <img src="../src/Components/img/google-pay.png" alt="google pay" width="50px" />
+          <img src={GooglepayImg} alt="google pay" width="50px" />
           </div>
           <div className="flex py-3">
           <label className="block text-lg p-3">
@@ -86,7 +89,7 @@ const paidsuccessfully = () => {
             />
             Phone Pay
           </label>
-          <img src="../src/Components/img/phone-payy.png" alt="phone pay" width="50px" />
+          <img src={PhonepayImg} alt="phone pay" width="50px" />
           </div>
           <div className="flex py-3">
           <label className="block text-lg p-3">
@@ -100,7 +103,7 @@ const paidsuccessfully = () => {
             />
             Paytm
           </label>
-          <img src="../src/Components/img/paytm.png" alt="phone pay" width="50px" />
+          <img src={PaytimImg} alt="phone pay" width="50px" />
           </div>
           
           
