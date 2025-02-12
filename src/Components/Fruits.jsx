@@ -1,6 +1,17 @@
 import React from 'react';
 import { useCart } from 'react-use-cart';
 import { useNavigate } from 'react-router-dom';  
+import AppleImg from '../src/Components/img/fruits/apple.jpg';
+import BananaImg from '../src/Components/img/fruits/banana.jpg';
+import GrapesImg from '../src/Components/img/fruits/grapes.jpg';
+import KiwiImg from '../src/Components/img/fruits/kivi.jpg';
+import OrangeImg from '../src/Components/img/fruits/orange.jpg';
+import from '';
+import from '';
+import from '';
+import from '';
+import from '';
+import from '';
 
 const Fruits = () => {
   const { addItem } = useCart();  
@@ -9,7 +20,7 @@ const Fruits = () => {
   const fruititem = [
     {
       id: 1,
-      productimg: "../src/Components/img/fruits/apple.jpg",
+      productimg: AppleImg,
       productalt: "apple img",
       productname: "Apple",
       price: 50,  
@@ -18,7 +29,7 @@ const Fruits = () => {
     },
     {
       id: 2,
-      productimg: "../src/Components/img/fruits/banana.jpg",
+      productimg: BananaImg,
       productalt: "banana img",
       productname: "Banana",
       price: 50, 
@@ -27,7 +38,7 @@ const Fruits = () => {
     },
     {
       id: 3,
-      productimg: "../src/Components/img/fruits/grapes.jpg",
+      productimg: GrapesImg,
       productalt: "grapes img",
       productname: "Grapes",
       price: 50, 
@@ -36,7 +47,7 @@ const Fruits = () => {
     },
     {
       id: 4,
-      productimg: "../src/Components/img/fruits/kivi.jpg",
+      productimg: KiwiImg,
       productalt: "Kivi img",
       productname: "kivi",
       price: 50, 
@@ -45,7 +56,7 @@ const Fruits = () => {
     },
     {
       id: 5,
-      productimg: "../src/Components/img/fruits/orange.jpg",
+      productimg: OrangeImg,
       productalt: "Orange img",
       productname: "Orange",
       price: 50, 
